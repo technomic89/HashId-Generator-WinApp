@@ -70,5 +70,53 @@ namespace HashId_Generator_Windows.Properties {
                 this["Id"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string GenerateId {
+            get {
+                return ((string)(this["GenerateId"]));
+            }
+            set {
+                this["GenerateId"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string GenerateHashId {
+            get {
+                return ((string)(this["GenerateHashId"]));
+            }
+            set {
+                this["GenerateHashId"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890")]
+        public string Alphabet {
+            get {
+                return ((string)(this["Alphabet"]));
+            }
+            set {
+                this["Alphabet"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public int SelectedTab {
+            get {
+                return ((int)(this["SelectedTab"]));
+            }
+            set {
+                this["SelectedTab"] = value;
+            }
+        }
     }
 }
